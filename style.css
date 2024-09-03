@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*
+resolucion minima para computdoras
+@media(min-witdh:768px){
+    body{
+        background-color:blue;
+    }
+    header{
+        display flex
+        flex-direction:row
+    }
+    nav{
+        background color
+    }
+    nav ul{
+        display flex
+        flex direction row
+    }
+    nav ul li{
+        list-stylr-type:none
+        margin:20px
+    }
+}
+
+resolucion maxima para telefonos y tabletas
+@media(max-witdh: 767px){
+    body{
+        background-color:red;
+    }
+    header{
+        display flex
+        flex-direction:column
+    }
+    .logo{
+        witfh 100%
+        heigth 70px
+        display flex
+        justify content center
+        align items center
+        align content center
+    }
+    nav{
+        background color
+        justify content center
+        align items center
+        align content center
+    }
+    nav ul{
+        display flex
+        flex direction column
+    }
+    nav ul li{
+        list-stylr-type:none
+        margin-top:10px
+    }
+}
+*/
+
+header {
+    background-color: rgb(196, 231, 125);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logotipo {
+    width: 160px;
+
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+    flex-direction: row;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(37, 3, 3);
+}
+
+
+@media (max-width: 767px){
+    header {
+        background-color: rgb(196, 231, 125);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logotipo {
+        width: 160px;
+    }
+
+    nav {
+        background-color: rgb(196, 231, 125);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: flex;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .seccion1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(220, 167, 220);
+        border:2px solid red;
+    }
+    .caja{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 2px blue solid;       
+       }
+    
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: justify;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+    font-size: 25px;
+    color: black;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.seccion1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(220, 167, 220);
+}
+
+.seccion1 img {
+    width: 100px;
+}
+
+.caja {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 30px 10px 30px;
+
+}
+
+.caja h1 {
+    text-align: center;
+}
+
+.caja img {
+    border-radius: 80%;
+}
+
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion h2 {
+    font-size: 35px;
+    color: black;
+}
+
+.presentacion p {
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+footer {
+    background-color: #106867;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100px;
+}
+
+.video p {
+    width: 70%;
+    font-size: 25px;
+    padding: 10px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+
+}
+
+.ubicacion {
+    background-color: #ed656f;
+
+}
+
+.ubicacion p {
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+
+}
+
+.seccion2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #FAE307;
+
+}
+
+.seccion2 img {
+    width: 100px;
+}
+
+.seccion2 h1 {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.ubicacion iframe {
+    padding-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.ubicacion h1 {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.ubicacion p {
+    font-size: 25px;
+    color: black;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+
+}
+
+.caja2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.caja2 p {
+    font-size: 25px;
+    color: black;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+
+}
+
+.caja3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.acerca {
+    background-color: #FAE307;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(196, 231, 125);
+}
+
+.nos1 {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: rgb(220, 167, 220);
+}
+
+.nos1 h1 {
+    font-size: 21px;
+    color: rgb(16, 92, 16);
+    text-align: justify;
+}
+
+.nos1 p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.btn-primary {
+    border: solid 1px hsl(136, 97%, 20%);
+    background-color: hsl(136, 97%, 30%);
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    box-shadow: none;
+    border: solid 1px hsl(136, 97%, 30%);
+    background-color: hsl(136, 97%, 20%);
+}
+
+.redes i {
+    color: black;
+    border-radius: 10%;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.redes-img {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.otros img {
+    padding-left: 30px;
+}
+
+.otros {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-carrousel {
+
+    width: 500px;
+    height: 500px;
+
+}
+
+.carruselImg {
+    border: 2px solid green;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
